@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="114dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="196dp"
+        android:text="Name:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/surnameTextView"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        android:text="Surname:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Add these lines to include new TextViews for mother's name, father's name, and date of birth -->
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/surnameTextView"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="408dp"
+        android:text="National ID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="91dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/idTextView"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="172dp"
+        android:text="Gender:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/motherNameTextView"
+        android:layout_width="103dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/genderTextView"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="264dp"
+        android:text="Mother's Name:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/fatherNameTextView"
+        android:layout_width="117dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/motherNameTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="264dp"
+        android:text="Father's Name:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dofTextView"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/fatherNameTextView"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="352dp"
+        android:text="Date of Birth:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

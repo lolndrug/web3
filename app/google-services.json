@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "430420415523",
+    "firebase_url": "https://web3-41cf7-default-rtdb.firebaseio.com",
+    "project_id": "web3-41cf7",
+    "storage_bucket": "web3-41cf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430420415523:android:e098d4c202aec4489d0d96",
+        "android_client_info": {
+          "package_name": "com.example.web3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuOwFjoqo_eh3YLkV5Iy2YFkgsTO6muv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
